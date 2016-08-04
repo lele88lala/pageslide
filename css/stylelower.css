@@ -26,12 +26,11 @@ body,html{
     padding-top: 1.5rem;
 }
 .player{
-   margin-top: -7.5em;
+    margin-top: -7.5em;
 }
 .wrapper{
     -webkit-transition: -webkit-transform 0.3s ease-out;
     transition: -webkit-transform 0.3s ease-out;
-    height:100vh;
     position: relative;
 }
 .circular_image{
@@ -145,58 +144,42 @@ body,html{
 .my-head{
     width:2.5rem;
     height:2.5rem;
-    -webkit-animation: actionme 12s linear infinite;
-    -moz-animation: actionme 12s linear infinite;
-    -o-animation: actionme 12s linear infinite;
-    animation: actionme 12s linear infinite;
+    top:-6.5rem;
+    left:-1.8rem;
 
 }
 .player-one{
-    -webkit-animation: actionone 12s linear infinite;
-    -moz-animation: actionone 12s linear infinite;
-    -o-animation: actionone 12s linear infinite;
-    animation: actionone 12s linear infinite;
+    top:-2.6rem;
+    left:-5rem;
 
 }
 .player-two{
-    -webkit-animation: actiontwo 12s linear infinite;
-    -moz-animation: actiontwo 12s linear infinite;
-    -o-animation: actiontwo 12s linear infinite;
-    animation: actiontwo 12s linear infinite;
+    top:2rem;
+    left:-4.8rem;
 }
 .player-three{
-    -webkit-animation: actionthree 12s linear infinite;
-    -moz-animation: actionthree 12s linear infinite;
-    -o-animation: actionthree 12s linear infinite;
-    animation: actionthree 12s linear infinite;
+    top:6.3rem;
+    left:2rem;
 }
 .player-fore{
-    -webkit-animation: actionfore 12s linear infinite;
-    -moz-animation: actionfore 12s linear infinite;
-    -o-animation: actionfore 12s linear infinite;
-    animation: actionfore 12s linear infinite;
+    top:-3.1rem;
+    left:3rem;
 
 }
 .player-five{
-    -webkit-animation: actionfive 12s linear infinite;
-    -moz-animation: actionfive 12s linear infinite;
-    -o-animation: actionfive 12s linear infinite;
-    animation: actionfive 12s linear infinite;
+    top:3rem;
+    left:5.5rem;
 
 }
 .player-six{
-    -webkit-animation: actionsix 12s linear infinite;
-    -moz-animation: actionsix 12s linear infinite;
-    -o-animation: actionsix 12s linear infinite;
-    animation: actionsix 12s linear infinite;
+    top:3.8rem;
+    left:-1rem;
 }
 .player-seven{
     width:1.9rem;
     height:1.9rem;
-    -webkit-animation: actionseven 12s linear infinite;
-    -moz-animation: actionseven 12s linear infinite;
-    -o-animation: actionseven 12s linear infinite;
-    animation: actionseven 12s linear infinite;
+    top:-2rem;
+    left:6rem;
 }
 .team-head{
     width:5.3rem;
@@ -224,23 +207,23 @@ body,html{
 
 }
 @-webkit-keyframes actionme {
-     from {
-         -webkit-transform: rotate(0deg)  translate(-1.8rem,-6.5rem) rotate(0deg);
-     }
-     to {
-         -webkit-transform: rotate(360deg) translate(-1.8rem,-6.5rem) rotate(-360deg);
-     }
+    from {
+        -webkit-transform: rotate(0deg)  translate(-1.8rem,-6.5rem) rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translate(-1.8rem,-6.5rem) rotate(-360deg);
+    }
 
- }
+}
 @-o-keyframes actionme {
-      from {
-          -o-transform: rotate(0deg)  translate(-1.8rem,-6.5rem) rotate(0deg);
-      }
-      to {
-          -o-transform: rotate(360deg) translate(-1.8rem,-6.5rem) rotate(-360deg);
-      }
+    from {
+        -o-transform: rotate(0deg)  translate(-1.8rem,-6.5rem) rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg) translate(-1.8rem,-6.5rem) rotate(-360deg);
+    }
 
-  }
+}
 
 @keyframes actionone {
     from {
@@ -617,7 +600,7 @@ body,html{
 }
 
 .page-4{
-     position:relative;
+    position:relative;
 }
 .bg-image{
     position:relative;
@@ -626,7 +609,7 @@ body,html{
     position:absolute;
 }
 .bg-image-1{
-     top:1.8rem;
+    top:1.8rem;
     left:4rem;
     width:12rem;
 }
@@ -830,35 +813,39 @@ body,html{
 .ball-words{
     position:relative;
     text-align: center;
+    margin-top: 2.5rem;
 }
 .ball-red-words *,.ball-green-words *,.ball-yellow-words * {
     display:block;
+    width: 75px;
+    font-size:1.6rem;
+    font-weight: bolder;
+    text-align: center;
 }
 .ball-red-words,.ball-yellow-words,.ball-green-words{
     position:absolute;
+    width: 75px;
 }
+
 .ball-red-number{
     color:#f24046;
-    font-size:1.6rem;
-    font-weight: bolder;
-    text-align: center;
 }
 .ball-green-number{
     color:#4dc051;
-    font-size:1.6rem;
-    font-weight: bolder;
 }
 .ball-yellow-number{
     color:#efca0c;
-    text-aligin:center;
-    font-size:1.6rem;
-    font-weight: bolder;
+}
+.ball-red-number, .ball-green-number, .ball-yellow-number {
+    margin-top: -6rem;
+    margin-bottom: 0.2rem;
 }
 .ball-score{
+    display: block;
     font-size:0.9rem;
-    width:2rem;
-    padding-top:0.2rem;
     text-align: center;
+    width: 2rem;
+    margin-left: 1rem;
 }
 .ball-score-red{
     color:#f24046;
@@ -873,92 +860,15 @@ body,html{
 .ball-red-words{
     top:10rem;
     left:8rem;
-    animation: actionredball 2s linear infinite;
-    -webkit-animation: actionredball 2s linear infinite;
-    -o-animation: actionredball 2s linear infinite;
-    -moz-animation: actionredball 2s linear infinite;
+}
 
-
-}
-@keyframes actionredball{
-    0% {
-        /*transform: rotate(0deg);*/
-        opacity: 1;
-    }
-    25% {
-        opacity: 0.5;
-    }
-    50% {
-        opacity: 0.7
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@-moz-keyframes actionredball{
-    0% {
-        /*transform: rotate(0deg);*/
-        opacity: 1;
-    }
-    25% {
-        opacity: 0.5;
-    }
-    50% {
-        opacity: 0.7
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@-webkit-keyframes actionredball{
-    0% {
-        /*transform: rotate(0deg);*/
-        opacity: 1;
-    }
-    25% {
-        opacity: 0.5;
-    }
-    50% {
-        opacity: 0.7
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@-o-keyframes actionredball{
-    0% {
-        /*transform: rotate(0deg);*/
-        opacity: 1;
-    }
-    25% {
-        opacity: 0.5;
-    }
-    50% {
-        opacity: 0.7
-    }
-    100% {
-        opacity: 1;
-    }
-}
 .ball-green-words{
     top:14rem;
     left:3rem;
-    animation: actionredball 2s linear infinite;
-    -webkit-animation: actionredball 2s linear infinite;
-    -o-animation: actionredball 2s linear infinite;
-    -moz-animation: actionredball 2s linear infinite;
-
-
 }
 .ball-yellow-words{
     top:14rem;
     right:3rem;
-    animation: actionredball 2s linear infinite;
-    -webkit-animation: actionredball 2s linear infinite;
-    -o-animation: actionredball 2s linear infinite;
-    -moz-animation: actionredball 2s linear infinite;
-
-
 }
 .page-6-bg{
     /*position:relative;*/

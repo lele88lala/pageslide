@@ -1,4 +1,7 @@
 /**
+ * Created by fenghuan on 8/4/16.
+ */
+/**
  * Created by fenghuan on 7/25/16.
  */
 document.body.addEventListener("touchstart", touchHandler, false)
@@ -13,12 +16,10 @@ var page = document.querySelector('.wrapper')
 if (page.style.marginTop == "") {
     page.style.marginTop = '0px';
 }
-
 var tmpPageHeight = 100
 var flag = true
 function touchHandler(e) {
-    event.preventDefault();
-
+    e.preventDefault();
     if (e.type == "touchstart") {
         xDown = e.touches[0].clientY;
     } else if (e.type == "touchmove" && flag) {
@@ -47,6 +48,7 @@ function touchHandler(e) {
         }
         else if (xDiff < -150) {
             //alert(pageCount+"向下");
+            alert(2);
             if (pageCount >0) {
                 flag = false
                 //window.inter = setInterval(function() {
@@ -60,8 +62,7 @@ function touchHandler(e) {
                 //    }
                 //
                 //}, 15)
-                page.style.cssText = "-webkit-transform:translate(0,-" + (pageCount-1)*100+ "vh)";
-
+                page.style.cssText = "-webkit-transform:translate3d(0,-" + (pageCount-1)*100+ "vh,0)";
                 pageCount--;
             }
 
@@ -69,12 +70,4 @@ function touchHandler(e) {
     } else if (e.type == "touchend" || e.type == "touchcancel") {
         flag = true
     }
-}
-var selectors = document.querySelectorAll(".page-bottom");
-for (var index = 0 ;index < selectors.length; index++) {
-    selectors[index].addEventListener('touchstart', function() {
-        pageCount++
-        page.style.cssText = "-webkit-transform:translate(0,-" + 100*pageCount + "vh)";
-        page.style.cssText = "transform:translate(0,-" + 100*pageCount + "vh)";
-    }, false)
 }

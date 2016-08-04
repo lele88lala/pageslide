@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>我的城市传奇</title>
+</head>
+
+<script>
+    var html = document.querySelector("html");
+    var rem = html.offsetWidth /20;
+    html.style.fontSize = rem + "px";
+
+    //    function loadjscssfile(filename,filetype){
+    //
+    //        if(filetype == "js"){
+    //            var fileref = document.createElement('script');
+    //            fileref.setAttribute("type","text/javascript");
+    //            fileref.setAttribute("src",filename);
+    //        }else if(filetype == "css"){
+    //
+    //            var fileref = document.createElement('link');
+    //            fileref.setAttribute("rel","stylesheet");
+    //            fileref.setAttribute("type","text/css");
+    //            fileref.setAttribute("href",filename);
+    //        }
+    //        if(typeof fileref != "undefined"){
+    //            document.getElementsByTagName("head")[0].appendChild(fileref);
+    //        }
+    //
+    //    }
+    //
+    //    var ua = navigator.userAgent.toLocaleLowerCase();
+    //    if(ua.match(/iPhone/i)=="iphone") {
+    //        if (navigator.userAgent.match(/os 9_[0-9] /i) || navigator.userAgent.match(/os 9_[0-9]_[0-9] /i)) {
+    //            //9.0以上
+    //            //alert("9.0以上");
+    //            loadjscssfile("js/action.js","js");
+    //            loadjscssfile("css/style.css","css");
+    //        } else {
+    //
+    //            //9.0以下
+    //            //alert("9.0以下");
+    //            loadjscssfile("js/action.js","js");
+    //            loadjscssfile("css/style.css","css");
+    //
+    //        }
+    //    } else {
+    //        //alert("其他");
+    //        loadjscssfile("js/action.js","js");
+    //        loadjscssfile("css/style.css","css");
+    //    }
+</script>
+<body>
+<div class="page-wrapper">
+    <div class="wrapper">
+
+        <div class="page page-6">
+            <div style="height:100vh;width:20rem;;opacity: 0;position:absolute">
+                <img src="image/six_barcode.png" style="height:100vh;width:20rem;">
+            </div>
+            <div class="page-6-bg">
+                <div class="page-6-bg-logo"><img class="logo-img" src="image/six_logo.png"></div>
+                <div class="page-6-bg-slogan"><img class="slogan-img" src="image/six_slogan.png"></div>
+                <div class="page-6-bg-barcode"><img class="barcode-img" src="image/six_barcode.png"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/action.js" type="text/javascript"></script>
+
+<script>
+
+</script>
+</html>

@@ -23,10 +23,10 @@ body,html{
     /*top:1.6rem;*/
     /*left:2.2rem;*/
     margin: 0 auto;
-    padding-top: 1.5rem;
+    padding-top: 30px;
 }
 .player{
-   margin-top: -7.5em;
+    margin-top: -90px;
 }
 .wrapper{
     -webkit-transition: -webkit-transform 0.3s ease-out;
@@ -224,23 +224,23 @@ body,html{
 
 }
 @-webkit-keyframes actionme {
-     from {
-         -webkit-transform: rotate(0deg)  translate(-1.8rem,-6.5rem) rotate(0deg);
-     }
-     to {
-         -webkit-transform: rotate(360deg) translate(-1.8rem,-6.5rem) rotate(-360deg);
-     }
+    from {
+        -webkit-transform: rotate(0deg)  translate(-1.8rem,-6.5rem) rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translate(-1.8rem,-6.5rem) rotate(-360deg);
+    }
 
- }
+}
 @-o-keyframes actionme {
-      from {
-          -o-transform: rotate(0deg)  translate(-1.8rem,-6.5rem) rotate(0deg);
-      }
-      to {
-          -o-transform: rotate(360deg) translate(-1.8rem,-6.5rem) rotate(-360deg);
-      }
+    from {
+        -o-transform: rotate(0deg)  translate(-1.8rem,-6.5rem) rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg) translate(-1.8rem,-6.5rem) rotate(-360deg);
+    }
 
-  }
+}
 
 @keyframes actionone {
     from {
@@ -513,11 +513,11 @@ body,html{
 
 
 .page-2 .vertical-line{
-    width: 1rem;
+    width: 18.75px;
     position:absolute;
     top:2.7rem;
     left: 50%;
-    margin-left: -0.3rem;
+    margin-left: -9.4px;
     text-align: center;
 }
 
@@ -542,25 +542,25 @@ body,html{
 
 }
 .page-2 .left-words{
-    top:13.5rem;
+    top:13rem;
     left:2rem;
 }
 .page-2 .right-words-1{
-    top:8rem;
+    top:7.5rem;
     left:11.5rem;
 }
 .page-2  .right-words-2{
-    top:20rem;
+    top:19rem;
     left:11.5rem;
 }
 .numbers{
     font-size:1.3rem;
 }
 .page-3-1 .vertical-line{
-    width: 1rem;
+    width: 18.75px;
     position:absolute;
     left: 50%;
-    margin-left: -0.3rem;
+    margin-left: -9.4px;
     text-align: center;
 }
 .page-3-1 .left-words{
@@ -576,10 +576,10 @@ body,html{
     left:1.5rem;
 }
 .page-3-2 .vertical-line{
-    width: 1rem;
+    width: 18.75px;
     position:absolute;
     left: 50%;
-    margin-left: -0.3rem;
+    margin-left: -9.4px;
     text-align: center;
 }
 .page-3-2 .left-words{
@@ -596,10 +596,10 @@ body,html{
     left:3rem;
 }
 .page-3-3 .vertical-line{
-    width: 1rem;
+    width: 18.75px;
     position:absolute;
     left: 50%;
-    margin-left: -0.3rem;
+    margin-left: -9.4px;
     text-align: center;
 }
 .page-3-3 .left-words{
@@ -617,7 +617,7 @@ body,html{
 }
 
 .page-4{
-     position:relative;
+    position:relative;
 }
 .bg-image{
     position:relative;
@@ -626,7 +626,7 @@ body,html{
     position:absolute;
 }
 .bg-image-1{
-     top:1.8rem;
+    top:1.8rem;
     left:4rem;
     width:12rem;
 }
@@ -872,7 +872,7 @@ body,html{
 }
 .ball-red-words{
     top:10rem;
-    left:8rem;
+    left:8.95rem;
     animation: actionredball 2s linear infinite;
     -webkit-animation: actionredball 2s linear infinite;
     -o-animation: actionredball 2s linear infinite;
@@ -942,7 +942,7 @@ body,html{
 }
 .ball-green-words{
     top:14rem;
-    left:3rem;
+    left:4rem;
     animation: actionredball 2s linear infinite;
     -webkit-animation: actionredball 2s linear infinite;
     -o-animation: actionredball 2s linear infinite;
@@ -952,7 +952,7 @@ body,html{
 }
 .ball-yellow-words{
     top:14rem;
-    right:3rem;
+    right:4rem;
     animation: actionredball 2s linear infinite;
     -webkit-animation: actionredball 2s linear infinite;
     -o-animation: actionredball 2s linear infinite;
@@ -987,8 +987,8 @@ body,html{
     display:block;
 }
 .short-line{
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
     height:5rem;
     width:1px;
 }
